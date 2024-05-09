@@ -1,0 +1,134 @@
+/*#9E3FFD
+https://static.wixstatic.com/media/84770f_994ffe746a074d1f8a2ec9456a8bf1ff~mv2.png/v1/fill/w_980,h_902,al_br,q_90,usm_0.66_1.00_0.01,enc_auto/84770f_994ffe746a074d1f8a2ec9456a8bf1ff~mv2.png
+https://tuboi24.wixsite.com/hermonhilltraders/home
+*/
+
+.link {
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    background-color: #B87BFD;
+    width: fit-content;
+    color: #f0f0f0;
+
+    transition: all 300ms ease-in-out;
+}
+
+.link:hover {
+    background-color: #0f0f0f;
+}
+
+/* Style for the nav section starts here*/
+nav {
+	position: fixed;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+
+	width: 98%;
+	background-color: white;
+	z-index: 5;
+
+    padding: 1rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav > ul {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+#search {
+    border: 1px solid black;
+    border-radius: 0.25rem;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 0.5rem;
+}
+
+#search > input {
+    border: none;
+}
+
+#search > input:active {
+    border: none;
+    outline: none;
+}
+
+/* Style for the main content starts here */
+#home {
+	width: 100dvw;
+	height: 100vh;
+	position: relative;
+	overflow: hidden;
+
+	display: flex;
+}
+
+.main {
+	padding: 10rem 5rem 5rem 5rem;
+
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+
+.main > h1 {
+	font-size: 5rem;
+	max-width: 50rem;
+}
+
+.main > p {
+	font-size: 1.5rem;
+	max-width: 30rem;
+}
+
+.background_main {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	z-index: -1;
+}
+
+.background_main > img {
+	min-width: 100%;
+	min-height: 100%;
+}
+
+/* This is the about section */
+#about {
+    background-color: #DDBBFF;
+    color: #692AA9;
+    padding: 2rem 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+/* Media queries here */
+@media screen and (max-width: 768px) {
+	.main {
+		padding: 5rem 2rem;
+	}
+
+	.main > h1 {
+		font-size: 3rem;
+	}
+
+	.main > p {
+		font-size: 1rem;
+	}
+}

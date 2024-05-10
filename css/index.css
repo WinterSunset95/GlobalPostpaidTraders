@@ -17,6 +17,10 @@ https://tuboi24.wixsite.com/hermonhilltraders/home
     background-color: #0f0f0f;
 }
 
+a:hover {
+	color: #9E3FFD;
+}
+
 /* Style for the nav section starts here*/
 nav {
 	position: fixed;
@@ -33,12 +37,22 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+	flex-wrap: wrap;
+	gap: 1rem;
+
+}
+
+nav > h1 {
+	font-size: 2rem;
 }
 
 nav > ul {
     display: flex;
     align-items: center;
-    gap: 0.5rem;
+    gap: 1rem;
+
+	font-size: 1.5rem;
+	flex-wrap: wrap;
 }
 
 #search {
@@ -69,6 +83,7 @@ nav > ul {
 	overflow: hidden;
 
 	display: flex;
+	margin-top: 5rem;
 }
 
 .main {
@@ -112,10 +127,18 @@ nav > ul {
 #about {
     background-color: #DDBBFF;
     color: #692AA9;
-    padding: 2rem 5rem;
+    padding: 2rem 10rem;
     display: flex;
     flex-direction: column;
     gap: 1rem;
+}
+
+#about > h1 {
+	font-size: 3rem;
+}
+
+#about > p {
+	font-size: 1.5rem;
 }
 
 /* Media queries here */
@@ -130,5 +153,9 @@ nav > ul {
 
 	.main > p {
 		font-size: 1rem;
+	}
+
+	#about {
+		padding: 2rem;
 	}
 }

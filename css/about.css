@@ -1,0 +1,23 @@
+/* This is the about section */
+#about {
+    background-color: #DDBBFF;
+    color: #692AA9;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#about > h1 {
+	font-size: 3rem;
+}
+
+#about > p {
+	font-size: 1.5rem;
+}
+
+@media screen and (min-width: 768px) {
+	#about {
+		padding: 2rem 10rem;
+	}
+}

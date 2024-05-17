@@ -1,0 +1,38 @@
+h1 {
+	margin-top: 2rem;
+	padding: 1rem;
+}
+
+main {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+li {
+	padding: 1rem;
+}
+
+ol {
+	max-width: 50rem;
+}
+
+.child_list {
+	padding-left: 3rem;
+}
+
+img {
+	width: 100%;
+	max-width: 13rem;
+	padding: 1rem;
+}
+
+.sub_link {
+	text-decoration: underline;
+	color: inherit;
+}
+
+.sub_link:hover {
+	color: #ff0000;
+}

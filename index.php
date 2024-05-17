@@ -9,29 +9,29 @@
 	<link rel="stylesheet" href="./css/home.css">
 </head>
 <body>
-
-	<nav>
-		<ul>
-			<li><a href="#">Home</a></li>
-			<li><a href="#">About Us</a></li>
-			<li><a href="#">Features</a></li>
-			<li><a href="#">Packages</a></li>
-			<li><a href="#">Subscriptions</a></li>
-			<li><a href="#">Contact Us</a></li>
-		</ul>
-	</nav>
+	
+	<?php
+		include 'header.php';
+	?>
 
 	<main>
 		<div class="container">
 			<h1>Welcome to</h1>
 			<h2>Postpaid Trade Analysts</h2>
 		</div>
-		<div class="links">
-			<h2>Get started:</h2>
-			<ul>
-				<li></li>
-			</ul>
-		</div>
+		<!--
+			<div class="links">
+				<h2>Get started:</h2>
+				<ul>
+					<li>
+						<a href="./about.html">About Us</a>
+					</li>
+					<li>
+						<a href="./Subscriptions.html">Subscriptions</a>
+					</li>
+				</ul>
+			</div>
+		-->
 	</main>
 
 	<footer>

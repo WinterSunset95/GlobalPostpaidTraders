@@ -14,24 +14,11 @@
 		include 'header.php';
 	?>
 
-	<main>
+	<main class="intro">
 		<div class="container">
 			<h1>Welcome to</h1>
 			<h2>Postpaid Trade Analysts</h2>
 		</div>
-		<!--
-			<div class="links">
-				<h2>Get started:</h2>
-				<ul>
-					<li>
-						<a href="./about.html">About Us</a>
-					</li>
-					<li>
-						<a href="./Subscriptions.html">Subscriptions</a>
-					</li>
-				</ul>
-			</div>
-		-->
 	</main>
 
 	<footer>

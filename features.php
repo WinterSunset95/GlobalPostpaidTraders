@@ -14,7 +14,7 @@
 
 	<main>
 		<h1>Features of our services</h1>
-		<ol>
+		<ol class="non-nav-list">
 			<li>Our service, is daily basis. We give accurate tips and clients pay out their due  charges the same day at the end of the days’ market out of the days’ profit they made.</li>
 			<li>We provide 100% accurate trading recommendations for Stock futures and Options, Nifty and Bank nifty Indexes and commodity segment.</li>
 			<li>We provide Intraday tips according to market conditions. So, traders are advised to keep watch of the market the whole trading day.</li>

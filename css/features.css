@@ -10,7 +10,7 @@ main {
 	align-items: center;
 }
 
-li {
+.non-nav-list > li {
 	padding: 1rem;
 }
 

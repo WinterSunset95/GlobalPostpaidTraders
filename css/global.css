@@ -1,11 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+:root {
+	--primary: #2D3843;
+	--secondary: #6C757D;
+	--text: #F2F2F2;
+	--accent: #C239F4;
+	--button: #4ECDC4;
+
+	--primary-rgb: 45, 56, 67;
+	--secondary-rgb: 108, 117, 125;
+	--text-rgb: 242, 242, 242;
+	--accent-rgb: 194, 57, 244;
+	--button-rgb: 78, 205, 196;
+
+}
+
 * {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
 	font-family: 'Montserrat', sans-serif;
-	font-size: 1.2rem;
+	font-size: 1rem;
+
+	color: var(--text);
+}
+
+body {
+	background-color: var(--primary);
 }
 
 a {
@@ -15,5 +36,30 @@ a {
 }
 
 a:active {
-	color: blue;
+	color: var(--accent);
 }
+
+h1 {
+	text-align: center;
+	font-size: 2rem;
+}
+
+h2 {
+	font-size: 1.2rem;
+}
+
+ul, ol {
+	padding: 1rem;
+}
+
+li {
+	margin-left: 1rem;
+}
+
+@media only screen and (min-width: 768px) {
+	* {
+		font-size: 1.2rem;
+	}
+}
+
+

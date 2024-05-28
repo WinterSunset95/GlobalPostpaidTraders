@@ -4,9 +4,9 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Packages</title>
-	<link rel="stylesheet" href="./css/global.css">
-	<link rel="stylesheet" href="./css/nav.css">
-	<link rel="stylesheet" href="./css/features.css">
+	<link rel="stylesheet" href="./css/global.css?version=1.1">
+	<link rel="stylesheet" href="./css/nav.css?version=1.1">
+	<link rel="stylesheet" href="./css/features.css?version=1.1">
 </head>
 <body>
 

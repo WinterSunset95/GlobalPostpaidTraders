@@ -17,3 +17,12 @@ main {
 ol {
 	max-width: 50rem;
 }
+
+.sub_link {
+	text-decoration: underline;
+	color: inherit;
+}
+
+.sub_link:hover {
+	color: #ff0000;
+}

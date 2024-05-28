@@ -4,9 +4,9 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Features</title>
-	<link rel="stylesheet" href="./css/global.css">
-	<link rel="stylesheet" href="./css/nav.css">
-	<link rel="stylesheet" href="./css/features.css">
+	<link rel="stylesheet" href="./css/global.css?version=1.1">
+	<link rel="stylesheet" href="./css/nav.css?version=1.1">
+	<link rel="stylesheet" href="./css/features.css?version=1.1">
 </head>
 <body>
 	
@@ -22,6 +22,7 @@
 			<li>Tips will be provided between  9.15 am to 2.30 pm for stock and Indexes market and 10 am to 9 pm for commodity segment.</li>
 			<li>1-3 tips will be provided in one trading day as required.</li>
 			<li>Proper entry and exit level will be provided. Clients will be informed to exit and book profit as needed to avoid losses.</li>
+			<li>Postpaid Trade Analysts is not providing trial tips to clients, because with a system of "earn first and then pay" trial tips have no meaning.</li>
 		</ol>
 	</main>
 	

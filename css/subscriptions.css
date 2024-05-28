@@ -28,11 +28,3 @@ img {
 	padding: 1rem;
 }
 
-.sub_link {
-	text-decoration: underline;
-	color: inherit;
-}
-
-.sub_link:hover {
-	color: #ff0000;
-}

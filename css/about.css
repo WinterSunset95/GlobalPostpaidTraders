@@ -13,4 +13,6 @@ main {
 p {
 	padding: 1rem;
 	max-width: 50rem;
+	text-align: justify;
+	text-justify: inter-word;
 }

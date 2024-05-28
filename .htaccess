@@ -1,0 +1,9 @@
+# Set caching on image files ExpiresActive On ExpiresByType image/gif "access plus 1 month" ExpiresByType image/png "access plus 1 month" ExpiresByType image/jpg "access plus 1 month" ExpiresByType image/jpeg "access plus 1 month" # Set caching on CSS and JS files ExpiresByType text/css "access plus 1 day" ExpiresByType application/javascript "access plus 1 day"
+ExpiresActive On
+ExpiresByType image/gif "access plus 1 day"
+ExpiresByType image/png "access plus 1 day"
+ExpiresByType image/jpg "access plus 1 day"
+ExpiresByType image/jpeg "access plus 1 day"
+
+ExpiresByType text/css "access plus 1 hour"
+ExpiresByType application/js "access plus 1 hour"
